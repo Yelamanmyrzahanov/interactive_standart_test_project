@@ -1,4 +1,4 @@
-package com.example.interactivestandarttest.di
+package com.example.interactivestandarttest.di.modules
 
 import android.app.Application
 import android.content.Context

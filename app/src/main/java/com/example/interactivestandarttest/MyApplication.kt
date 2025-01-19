@@ -1,8 +1,8 @@
 package com.example.interactivestandarttest
 
 import android.app.Application
-import com.example.interactivestandarttest.di.AppComponent
-import com.example.interactivestandarttest.di.CoreModule
+import com.example.interactivestandarttest.di.component.AppComponent
+import com.example.interactivestandarttest.di.modules.CoreModule
 import com.example.interactivestandarttest.di.DaggerAppComponent
 
 class MyApplication: Application() {

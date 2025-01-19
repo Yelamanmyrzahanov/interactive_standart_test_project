@@ -1,4 +1,4 @@
-package com.example.interactivestandarttest.di
+package com.example.interactivestandarttest.di.modules
 
 import com.example.interactivestandarttest.data.network.ApiService
 import com.example.interactivestandarttest.data.repository.FileRepositoryImpl
@@ -6,7 +6,6 @@ import com.example.interactivestandarttest.data.repository.PointRepositoryImpl
 import com.example.interactivestandarttest.domain.repository.FileRepository
 import com.example.interactivestandarttest.domain.repository.PointRepository
 import com.example.interactivestandarttest.presentation.utils.FileSaver
-import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

@@ -1,4 +1,4 @@
-package com.example.interactivestandarttest.di
+package com.example.interactivestandarttest.di.modules
 
 import com.example.interactivestandarttest.domain.repository.FileRepository
 import com.example.interactivestandarttest.domain.repository.PointRepository

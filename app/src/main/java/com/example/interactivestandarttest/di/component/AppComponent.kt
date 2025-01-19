@@ -1,7 +1,11 @@
-package com.example.interactivestandarttest.di
+package com.example.interactivestandarttest.di.component
 
 import android.app.Application
 import com.example.interactivestandarttest.MainActivity
+import com.example.interactivestandarttest.di.modules.CoreModule
+import com.example.interactivestandarttest.di.modules.NetworkModule
+import com.example.interactivestandarttest.di.modules.RepositoryModule
+import com.example.interactivestandarttest.di.modules.UseCaseModule
 import com.example.interactivestandarttest.presentation.chart.ChartFragment
 import com.example.interactivestandarttest.presentation.main.MainFragment
 import dagger.BindsInstance
